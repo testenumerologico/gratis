@@ -8,9 +8,10 @@
         body {
 
             font-family: Arial, sans-serif;
-            margin: 20px;
             color: white;
             height: 100vh;
+            max-height: 100vh;
+            width: 100vw;
             max-width: 100vw;
             overflow: hidden;
             display: flex;
@@ -33,11 +34,13 @@
         #textHeader h1{
             padding: 0;
             margin: 0;
+            margin-top: 10px;
             font-size: 1.5em;
         }
         #textHeader h2{
             font-size: 1.2em;
             font-weight: 100;
+            margin-top: 20px;
         }
 
         #numerologyForm{  
@@ -177,6 +180,7 @@
             left: 50%;
             transform: translate(-50%, -50%);
             transition: all 1s ease-in-out;
+            overflow: hidden;
         }
 
         #circulo {
